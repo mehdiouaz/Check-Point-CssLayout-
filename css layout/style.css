@@ -1,0 +1,241 @@
+.docplanner-logo {
+  height: 33px;
+  width: 100px;
+  flex-direction: row;
+  
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style: none;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 2em;
+  padding: 1.33em 0;
+  background: white;
+  
+}
+.current {
+  display: flex;
+  padding: 19.95px 0px;
+  justify-content: flex-end;
+  align-content: space-between;
+  font-size: 20px;
+  padding: 0px 9px;
+}
+.about-us {
+  color: #00c3a5;
+}
+.doc-icon {
+  margin: 30px 400px;
+  height: 33px;
+  width: 100px;
+  flex-direction: row;
+}
+h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  margin: 34px 0px;
+  justify-content: center;
+}
+.grid {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.75;
+}
+p {
+  color: #747474;
+  font: 16px;
+  margin: 20pxpx 0px;
+  padding: 5px;
+}
+
+body {
+  font-family: roboto;
+  font-size: 25px;
+}
+.container {
+  display: grid;
+  
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 80px;
+  gap: 5px;
+  margin: 20px;
+  border: 30px;
+  height: 300px;
+}
+.child1 {
+  background-color: #00ccb1;
+  display: grid;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.child2 {
+  background-color: #4588e0;
+  display: grid;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.child3 {
+  background-color: #323d48;
+  display: grid;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.container-2{
+  display: flex;
+  max-width: 1015px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+  
+}
+.p-near-logo{
+  display: flex;
+  float: left;
+  margin: 10px;
+  padding: 0px 20px;
+  width: 33%;
+  font-size: 35px;
+  color: #00BAC3;
+}
+.logo{
+  display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 5px;
+    gap: 15px;
+    
+}
+.p-with-logo{
+  display: flex;
+  font-size: 18px;
+  margin-right: 6px;
+}
+
+
+.p-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  height: 70px;
+}
+.container-3 {
+  background: #e5faf8;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(0, 204, 177, 0.01) 5%,
+    rgba(61, 199, 223, 0.1)
+);
+  padding: 1.875em 0 0.625em;
+  height: 600px;
+  display: flex;
+  overflow: hidden;
+}
+.stats__item1 {
+  display: flex;
+
+  justify-content: baseline;
+  align-items: baseline;
+  margin-left: 50px;
+}
+.Banzai1 {
+  height: 200px;
+  text-align: center;
+  width: 200px;
+  padding: 15px;
+  font-size: 0.8125em;
+  padding-bottom: 50px;
+  background: #fff;
+  padding-right: 20px;
+}
+.Banzai2 {
+  height: 200px;
+  text-align: center;
+  width: 200px;
+  padding: 15px;
+  font-size: 0.8125em;
+  padding-top: 30px;
+  background: #fff;
+  margin-left: 20px;
+}
+.pB2 {
+  text-align: center;
+  padding-left: 15px;
+}
+.imgB2 {
+  margin-top: 5px;
+}
+.stats__item {
+  display: flex;
+  flex-direction: column;
+}
+.kid1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.imgS {
+  margin-top: 20px;
+  margin-left: 30px;
+  size: 500px;
+}
+.parag {
+  padding-top: 5px;
+  margin-top: 10px;
+  text-align: center;
+
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  color: rgb(116, 116, 116);
+}
+.kame{
+    width: 1000px;
+   
+    margin: 200px 150px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.padd{
+    border: 5px none #1C6EA4;
+    border-radius: 12px;
+    
+    
+    
+    
+margin: 10px;}
+.padd:hover{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px 50px 50px 50px rgba(223,223,223,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px 50px 50px 50px rgba(223,223,223,0);
+}
+.DmC{
+    width:250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    
+
+
+
+}
+
+
+.color {
+    background-color: #3d83df;
+    color: white;
+    border: 5px none #1C6EA4;
+    border-radius: 6px;
+    font-size: 10px;
+    padding: 1em 1.5em;
+    font-family: 'Roboto', sans-serif !important;
+}
